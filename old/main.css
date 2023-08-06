@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+section {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ======================= */
+#header {
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+#logo {
+    /* font-family: 'Poppins'; */
+    font-size: 19px;
+    /* font-weight: bold; */
+    color: #40435E;
+}
+
+#menu-bar {
+    font-size: 17px;
+    color: #40435E;
+}
+
+/* ======================= */
+.white-space {
+    height: 200px;
+}
+
+/* ======================= */
+#footer {
+    padding: 0 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #50526a;
+    /* background-color: #f9f9f9; */
+}
+
+#footer-logo-container {
+    padding: 20px 0 20px 0;
+}
+
+#footer-logo {
+    font-size: 20px;
+    /* margin-left: 20px; */
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+#footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 0 0;
+}
+
+#footer-links > a {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 500;
+}
+
+#footer-links > a:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+#copyright {
+    margin: 40px 0 0 0;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.3);
+    align-self: center;
+}
